@@ -119,9 +119,9 @@ async def doc(bot, update):
                     return await ms.edit(str(er) + "\n\n**Error**")
             except BaseException:
                 pass
-        await ms.edit("**Metadata added to the file successfully ✅**\n\n⚠️ __**Please wait...**__\n\n**Tʀyɪɴɢ Tᴏ Uᴩʟᴏᴀᴅɪɴɢ....**")
+        await ms.edit("**Metadata added to the file successfully ✅**\n\n⚠️ __**Please wait...**__\n\n**🚨 𝐓𝐫𝐲 𝐓𝐨 𝐔𝐩𝐥𝐨𝐚𝐝 🚨**")
     else:
-        await ms.edit("⚠️  __**Please wait...**__\n\n\n**Tʀyɪɴɢ Tᴏ Uᴩʟᴏᴀᴅɪɴɢ....**")
+        await ms.edit("⚠️  __**Please wait...**__\n\n\n** 🚨 𝐓𝐫𝐲 𝐓𝐨 𝐔𝐩𝐥𝐨𝐚𝐝 🚨 **")
     
 
     duration = 0
@@ -175,7 +175,7 @@ async def doc(bot, update):
                     thumb=ph_path,
                     caption=caption,
                     progress=progress_for_pyrogram,
-                    progress_args=("⚠️ __**Please wait...**__\n\n🌨️ **Uᴩʟᴏᴅ Sᴛᴀʀᴛᴇᴅ....**", ms, time.time()))
+                    progress_args=("⚠️ __**Please wait...**__\n\n **🚨 𝐓𝐫𝐲 𝐓𝐨 𝐔𝐩𝐥𝐨𝐚𝐝 🚨**", ms, time.time()))
 
                 from_chat = filw.chat.id
                 mg_id = filw.id
@@ -192,7 +192,7 @@ async def doc(bot, update):
                     thumb=ph_path,
                     duration=duration,
                     progress=progress_for_pyrogram,
-                    progress_args=("⚠️ __**Please wait...**__\n\n🌨️ **Uᴩʟᴏᴅ Sᴛᴀʀᴛᴇᴅ....**", ms, time.time()))
+                    progress_args=("⚠️ __**Please wait...**__\n\n **🚨 𝐓𝐫𝐲 𝐓𝐨 𝐔𝐩𝐥𝐨𝐚𝐝 🚨**", ms, time.time()))
 
                 from_chat = filw.chat.id
                 mg_id = filw.id
@@ -208,7 +208,7 @@ async def doc(bot, update):
                     thumb=ph_path,
                     duration=duration,
                     progress=progress_for_pyrogram,
-                    progress_args=("⚠️ __**Please wait...**__\n\n🌨️ **Uᴩʟᴏᴅ Sᴛᴀʀᴛᴇᴅ....**", ms, time.time()))
+                    progress_args=("⚠️ __**Please wait...**__\n\n**🚨 𝐓𝐫𝐲 𝐓𝐨 𝐔𝐩𝐥𝐨𝐚𝐝 🚨**", ms, time.time()))
 
                 from_chat = filw.chat.id
                 mg_id = filw.id
@@ -237,7 +237,7 @@ async def doc(bot, update):
                     thumb=ph_path,
                     caption=caption,
                     progress=progress_for_pyrogram,
-                    progress_args=("⚠️ __**Please wait...**__\n\n🌨️ **Uᴩʟᴏᴅ Sᴛᴀʀᴛᴇᴅ....**", ms, time.time()))
+                    progress_args=("⚠️ __**Please wait...**__\n\n**🚨 𝐓𝐫𝐲 𝐓𝐨 𝐔𝐩𝐥𝐨𝐚𝐝 🚨**", ms, time.time()))
             elif type == "video":
                 await bot.send_video(
                     update.message.chat.id,
@@ -246,7 +246,7 @@ async def doc(bot, update):
                     thumb=ph_path,
                     duration=duration,
                     progress=progress_for_pyrogram,
-                    progress_args=("⚠️ __**Please wait...**__\n\n🌨️ **Uᴩʟᴏᴅ Sᴛᴀʀᴛᴇᴅ....**", ms, time.time()))
+                    progress_args=("⚠️ __**Please wait...**__\n\n **🚨 𝐓𝐫𝐲 𝐓𝐨 𝐔𝐩𝐥𝐨𝐚𝐝 🚨**", ms, time.time()))
             elif type == "audio":
                 await bot.send_audio(
                     update.message.chat.id,
