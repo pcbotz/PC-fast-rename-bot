@@ -18,12 +18,12 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Kdramaland'),
+            '❤️‍🔥 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 ❤️‍🔥', url='https://t.me/pcott'),
         InlineKeyboardButton(
-            '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/SnowDevs')
+            '🔰 𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽 🔰', url='https://t.me/pcmoviegroup')
     ], [
-        InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
+        InlineKeyboardButton('💡 𝗔𝗯𝗼𝘂𝘁 💡', callback_data='about'),
+        InlineKeyboardButton('📱 𝗛𝗲𝗹𝗽 📱', callback_data='help')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)
@@ -39,7 +39,7 @@ async def rename_start(client, message):
 
     if not Config.STRING_SESSION:
         if file.file_size > 2000 * 1024 * 1024:
-            return await message.reply_text("Sᴏʀʀy Bʀᴏ Tʜɪꜱ Bᴏᴛ Iꜱ Dᴏᴇꜱɴ'ᴛ Sᴜᴩᴩᴏʀᴛ Uᴩʟᴏᴀᴅɪɴɢ Fɪʟᴇꜱ Bɪɢɢᴇʀ Tʜᴀɴ 2Gʙ")
+            return await message.reply_text("Sᴏʀʀy Bʀᴏ Tʜɪꜱ Bᴏᴛ Iꜱ Dᴏᴇꜱɴ'ᴛ Sᴜᴩᴩᴏʀᴛ Uᴩʟᴏᴀᴅɪɴɢ Fɪʟᴇꜱ Bɪɢɢᴇʀ Tʜᴀɴ 2Gʙ \n 𝗨𝘀𝗲 : @pcrename4GBbot ")
 
     try:
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
@@ -65,12 +65,12 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Kdramaland'),
+                    '❤️‍🔥 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 ❤️‍🔥', url='https://t.me/pcott'),
                 InlineKeyboardButton(
-                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/SnowDevs')
+                    '🔰 𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽 🔰', url='https://t.me/pcmoviegroup')
             ], [
-                InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
+                InlineKeyboardButton('💡 𝗔𝗯𝗼𝘂𝘁 💡', callback_data='about'),
+                InlineKeyboardButton('📱 𝗛𝗲𝗹𝗽 📱', callback_data='help')
             ]])
         )
     elif data == "help":
@@ -78,8 +78,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.HELP_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("✘ Cʟᴏꜱᴇ", callback_data="close"),
-                InlineKeyboardButton("⟪ Bᴀᴄᴋ", callback_data="start")
+                InlineKeyboardButton("❌ 𝘾𝙡𝙤𝙨𝙚  ❌", callback_data="close"),
+                InlineKeyboardButton("⏪ 𝘽𝙖𝙘𝙠 ⏪", callback_data="start")
             ]])
         )
     elif data == "about":
@@ -87,8 +87,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.ABOUT_TXT.format(client.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("✘ Cʟᴏꜱᴇ", callback_data="close"),
-                InlineKeyboardButton("⟪ Bᴀᴄᴋ", callback_data="start")
+                InlineKeyboardButton("❌ 𝘾𝙡𝙤𝙨𝙚  ❌", callback_data="close"),
+                InlineKeyboardButton("⏪ 𝘽𝙖𝙘𝙠 ⏪", callback_data="start")
             ]])
         )
 
