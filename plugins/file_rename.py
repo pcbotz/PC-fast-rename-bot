@@ -86,15 +86,15 @@ async def doc(bot, update):
         new_filename = add_prefix_suffix(new_filename_, prefix, suffix)
 
     except Exception as e:
-        return await update.message.edit(f"⚠️ Something went wrong can't able to set Prefix or Suffix ☹️ \n\n❄️ Contact My Creator -> @Snowball_Official\nError: {e}")
+        return await update.message.edit(f"⚠️ Something went wrong can't able to set Prefix or Suffix ☹️ \n\n -> contact : @PCADMINOFFICIALBOT \nError: {e}")
 
     file_path = f"downloads/{new_filename}"
     metadata_path = f"Metadata/{new_filename}"
     file = update.message.reply_to_message
 
-    ms = await update.message.edit("⚠️ __**Please wait...**__\n\n**Tʀyɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅɪɴɢ....**")
+    ms = await update.message.edit(" ** 🚀 𝗣𝗖 𝗧𝗿𝘆𝗶𝗻𝗴 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 🚀 ** ")
     try:
-        path = await bot.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram, progress_args=("\n⚠️ __**Please wait...**__\n\n❄️ **Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ....**", ms, time.time()))
+        path = await bot.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram, progress_args=("\n **🔥 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙎𝙩𝙖𝙧𝙩𝙚𝙙 🔥**", ms, time.time()))
     except Exception as e:
         return await ms.edit(e)
     
