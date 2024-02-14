@@ -255,7 +255,7 @@ async def doc(bot, update):
                     thumb=ph_path,
                     duration=duration,
                     progress=progress_for_pyrogram,
-                    progress_args=("⚠️ __**Please wait...**__\n\n🌨️ **Uᴩʟᴏᴅ Sᴛᴀʀᴛᴇᴅ....**", ms, time.time()))
+                    progress_args=("⚠️ __**Please wait...**__\n\n **🚨 𝐓𝐫𝐲 𝐓𝐨 𝐔𝐩𝐥𝐨𝐚𝐝 🚨**", ms, time.time()))
         except Exception as e:
             os.remove(file_path)
             if ph_path:
