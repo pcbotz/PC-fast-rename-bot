@@ -18,6 +18,8 @@
 
 ### 𝐅𝐚𝐬𝐭 𝐑𝐞𝐧𝐚𝐦𝐞 𝐁𝐨𝐭 ✅
 
+## No Bug 🖥️
+
 <p align="center">
 📡 <a href="https://t.me/pcott"><img title="Telegram" src="https://img.shields.io/static/v1?label=PCRename&message=BOT&color=blue-green"></a> 📡
 </p>
