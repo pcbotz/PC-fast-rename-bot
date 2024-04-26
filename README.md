@@ -1,3 +1,16 @@
+
+<p align="center">
+  <img src="https://graph.org/file/d88debe319cd52d403748.jpg" alt="AutoFilter Lucy Logo">
+</p>
+<h2 align="center">
+  「 ʟᴜᴄʏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ 」
+</h2>
+
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=LUCY+AUTO+FILTER+BOT+!;CREATED+BY+CODEFLIX+BOTS!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
+</p>
+
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 # 𝙋𝘾 𝙍𝙚𝙣𝙖𝙢𝙚 𝘽𝙤𝙩 ✅
