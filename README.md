@@ -6,13 +6,13 @@
 ### 𝐅𝐚𝐬𝐭 𝐑𝐞𝐧𝐚𝐦𝐞 𝐁𝐨𝐭 ✅
 
 <p align="center">
-🤖 <a href="https://t.me/SigmaSnowBot"><img title="Telegram" src="https://img.shields.io/static/v1?label=PCRename&message=BOT&color=blue-green"></a> 🤖
+📡 <a href="https://t.me/pcott"><img title="Telegram" src="https://img.shields.io/static/v1?label=PCRename&message=BOT&color=blue-green"></a> 📡
 </p>
 
 
 ## Deploy To Render              
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Snowball-0/Sigma-Snow-Bot)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/pcbotz/PC-fast-rename-bot)
 
 ## Deploy To Railway
 
@@ -20,7 +20,7 @@
 
 ## Deploy To Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/Snowball-0/Sigma-Snow-Bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/pcbotz/PC-fast-rename-bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 
 
 
@@ -50,7 +50,7 @@
 
 * `STRING_API_HASH` - Your Premium Account API HASH
 
-* `STRING_SESSION` - Your Premium Account SESSION STRING Generate by [SnowStringGenBot](https://t.me/SnowStringGenBot) ⚠️ OPTIONAL VARIABLE
+* `STRING_SESSION` - Your Premium Account SESSION STRING (⚠️ OPTIONAL VARIABLE)
 
 ## Botfather Commands
 ```
