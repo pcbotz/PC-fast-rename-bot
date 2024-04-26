@@ -3,11 +3,11 @@
   <img src="https://graph.org/file/d88debe319cd52d403748.jpg" alt="AutoFilter Lucy Logo">
 </p>
 <h2 align="center">
-  「 ʟᴜᴄʏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ 」
+  「 𝙋𝘾 𝙍𝙚𝙣𝙖𝙢𝙚 𝘽𝙤𝙩 」
 </h2>
 
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=LUCY+AUTO+FILTER+BOT+!;CREATED+BY+CODEFLIX+BOTS!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=PC+RENAME+BOT+!;CREATED+BY+PC!;)
 </p>
 
 
