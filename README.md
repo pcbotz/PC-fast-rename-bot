@@ -1,9 +1,9 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-# 𝐒𝐈𝐆𝐌𝐀 𝐒𝐍𝐎𝐖 𝐁𝐎𝐓
+# 𝙋𝘾 𝙍𝙚𝙣𝙖𝙢𝙚 𝘽𝙤𝙩 ✅
 
 
-### Sᴀᴍᴩʟᴇ Bᴏᴛ (Official Sɪɢᴍᴀ Sɴᴏᴡ Bᴏᴛ)
+### 𝐅𝐚𝐬𝐭 𝐑𝐞𝐧𝐚𝐦𝐞 𝐁𝐨𝐭 ✅
 
 <p align="center">
 🤖 <a href="https://t.me/SigmaSnowBot"><img title="Telegram" src="https://img.shields.io/static/v1?label=SigmaSnow&message=BOT&color=blue-green"></a> 🤖
@@ -72,5 +72,5 @@ status - Check Bot Status (Admin Only)
 broadcast - Send Message To All Users (Admin Only)
 ```
 
-## Created By ❄️
-- `Snowball` 
+## Created By 🟥
+- `PC` 
