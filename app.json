@@ -1,5 +1,5 @@
 {
-  "name": "Snow Renamer Bot",
+  "name": "PC Rename Bot",
   "description": "Telegram File Renamer Bot ",
   "logo": "https://telegra.ph/file/3b7050b8b5d918a00b490.jpg",
   "keywords": [
@@ -10,7 +10,7 @@
     "Rename",
     "File Rename"
   ],
-  "repository": "https://github.com/PCJOD/Sigma-Snow-Bot",
+  "repository": "https://github.com/pcbotz/PC-fast-rename-bot",
   "success_url": "",
   "stack": "container",
   "env": {
