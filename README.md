@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://graph.org/file/d88debe319cd52d403748.jpg" alt="AutoFilter Lucy Logo">
+  <img src="https://graph.org/file/89218d41bdc7eec974045.jpg" alt="PC logo">
 </p>
 <h2 align="center">
   「 𝙋𝘾 𝙍𝙚𝙣𝙖𝙢𝙚 𝘽𝙤𝙩 」
